@@ -1,0 +1,23 @@
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.filter-buttons button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.filter-buttons button:hover {
+  background-color: grey;
+  color: #fff;
+}
+.filter-buttons button.active {
+  background-color: grey;
+  color: #fff;
+}
+
+/*# sourceMappingURL=FilterButtons.css.map */
